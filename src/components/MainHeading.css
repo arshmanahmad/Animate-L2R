@@ -1,0 +1,29 @@
+.fade-in {
+    margin-left: 400px;
+    color: darkgray;
+    outline: none;
+    font-size: 1.5rem;
+    width: 35rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    animation: FadeIn 2s ease-in-out forwards;
+}
+
+.main-heading {
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(213, 235, 245);
+}
+
+@keyframes FadeIn {
+    from {
+        color: rgb(231, 225, 225);
+        margin-left: 400px;
+    }
+
+    to {
+        margin-left: 800px;
+        color: black;
+    }
+}
